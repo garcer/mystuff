@@ -11,7 +11,7 @@ MAINTAINER =		Cesare Gargano <gar@plusiagamma.org>
 # GPLv2
 PERMIT_PACKAGE_CDROM =	Yes
 
-TEST_DEPENDS =	devel/p5-Test-Assertions \
+TEST_DEPENDS =		devel/p5-Test-Assertions \
 			devel/p5-Log-Trace
 
 CPAN_AUTHOR =		BBC
