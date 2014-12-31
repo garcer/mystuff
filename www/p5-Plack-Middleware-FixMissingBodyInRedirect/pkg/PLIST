@@ -1,5 +1,3 @@
 @comment $OpenBSD$
-${P5SITE}/Plack/
-${P5SITE}/Plack/Middleware/
 ${P5SITE}/Plack/Middleware/FixMissingBodyInRedirect.pm
 @man man/man3p/Plack::Middleware::FixMissingBodyInRedirect.3p
