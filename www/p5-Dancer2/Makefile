@@ -1,11 +1,12 @@
+# $OpenBSD$
+
 COMMENT =		lightweight yet powerful web application framework
 
 MODULES =		cpan
 DISTNAME =		Dancer2-0.158000
 CATEGORIES =		www
 
-# perl
-PERMIT_PACKAGE_CDROM =	Yes
+MAINTAINER =		Cesare Gargano <gar@plusiagamma.org>
 
 BUILD_DEPENDS = 	${RUN_DEPENDS} \
 			devel/p5-File-ShareDir-Install
@@ -36,5 +37,8 @@ TEST_DEPENDS =		sysutils/p5-Capture-Tiny \
 			devel/p5-Test-Memory-Cycle>=1.04 \
 			devel/p5-Test-MockTime \
 			devel/p5-YAML
+
+# Perl
+PERMIT_PACKAGE_CDROM =	Yes
 
 .include <bsd.port.mk>

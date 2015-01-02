@@ -1,12 +1,12 @@
-# $OpenBSD $
+# $OpenBSD$
 
-COMMENT =	temporary buffer to save bytes
+COMMENT =		temporary buffer to save bytes
 
-MODULES =	cpan
-DISTNAME =	Stream-Buffered-0.03
-CATEGORIES =	devel
+MODULES =		cpan
+DISTNAME =		Stream-Buffered-0.03
+CATEGORIES =		devel
 
-MAINTAINER =	Cesare Gargano <gar@plusiagamma.org>
+MAINTAINER =		Cesare Gargano <gar@plusiagamma.org>
 
 # Perl
 PERMIT_PACKAGE_CDROM =	Yes

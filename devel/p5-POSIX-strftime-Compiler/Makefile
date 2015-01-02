@@ -1,4 +1,4 @@
-# $OpenBSD $
+# $OpenBSD$
 
 COMMENT =	GNU C library compatible strftime for loggers and servers
 

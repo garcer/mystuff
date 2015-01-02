@@ -1,4 +1,4 @@
-# $OpenBSD $
+# $OpenBSD$
 
 COMMENT =	Template Toolkit reimplemented in as little code as possible
 

@@ -1,4 +1,4 @@
-# $OpenBSD $
+# $OpenBSD$
 
 COMMENT =		various utility functions
 
@@ -8,11 +8,11 @@ CATEGORIES =		devel
 
 MAINTAINER =		Cesare Gargano <gar@plusiagamma.org>
 
-# Perl
-PERMIT_PACKAGE_CDROM =	Yes
-
 TEST_DEPENDS =		devel/p5-Test-Warnings
 
 CPAN_AUTHOR =		MAUKE
+
+# Perl
+PERMIT_PACKAGE_CDROM =	Yes
 
 .include <bsd.port.mk>

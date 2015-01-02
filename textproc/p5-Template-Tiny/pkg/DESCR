@@ -1,4 +1,2 @@
-Stream::Buffered is a buffer class to store arbitrary length of byte strings
-and then get a seekable filehandle once everything is buffered. It uses
-PerlIO and/or temporary file to save the buffer depending on the length of
-the size.
+Template::Tiny is a reimplementation of a subset of the functionality from
+Template Toolkit in as few lines of code as possible.
